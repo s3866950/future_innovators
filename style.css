@@ -201,6 +201,28 @@ h3 {
     background: white;
 }
 
+.flex {
+    background: #eee;
+    padding: 10px;
+    display: flex;
+    overflow: hidden;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.flex-group {
+    width: 200px;
+    padding: 0 10px;
+}
+.flex-group span {
+    display: block;
+}
+.flex-group span:first-of-type {
+    font-weight: 600;
+}
+
 /* -------- #fonts -------- */
 
 @font-face {
@@ -231,7 +253,7 @@ h3 {
     }
 }
 
-@media screen and (max-width: 901) {
+@media screen and (max-width: 901px) {
     .wrap {
         max-width: 100%;
         padding: 0 20px;
