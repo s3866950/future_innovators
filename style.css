@@ -1,0 +1,239 @@
+/* Comments */
+
+body {
+    font-size: 10px;
+    font-family: "Open Sans";
+    font-weight: 300;
+    margin: 0;
+    background: white;
+    font-size: 1.4rem;
+    line-height: 1.5;
+}
+
+img {
+    max-width: 100%;
+}
+
+a {
+    color: rgba(50, 50, 200);
+    text-decoration: none;
+}
+a:hover, a:focus {
+    color: rgba(50, 50, 200);
+    text-decoration: underline;
+}
+
+strong {
+    font-weight: 400;
+}
+
+p {
+    margin-top: 0;
+}
+
+h1, h2, h3 {
+    margin-bottom: 10px;
+    font-weight: 400;
+    margin-top: 0;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+h2 {
+    font-size: 2.2rem;
+}
+h3 {
+    font-size: 1.8rem;
+}
+
+
+
+.team-member-container {
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.header {
+    padding: 50px 0;
+    text-align: center;
+    background: black;
+    color: white;
+}
+
+.tab-input {
+    display: none;
+}
+
+.tm-image-small {
+    width: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.tm-image-small:hover {
+    opacity: 0.9;
+}
+
+.tm-image-medium {
+    max-width: 200px;
+    border-radius: 50%;
+    float: left;
+    margin-right: 40px;
+}
+
+.tab-input:checked + .tab-tm-label .tm-image-small {
+    width: 60px;
+}
+
+.tab-input:checked + .tab-tm-label {
+    margin-top: 0;
+}
+
+.tab-content-container {
+    /* border-top: 4px solid #333; */
+    /* display: none; */
+    padding-top: 40px;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    /* max-width: 1280px; */
+    padding: 50px 0;
+}
+
+.content-tm1 {
+    
+}
+
+.content-tm2 {
+    background: #eee;
+}
+
+.content-tm3 {
+    
+}
+
+.content-tm4 {
+    background: #eee;
+}
+
+.content-tm5 {
+    
+}
+
+
+/* #tab-tm1:checked ~ .content-tm1 {
+    display: block;
+}
+
+#tab-tm2:checked ~ .content-tm2 {
+    display: block;
+}
+
+#tab-tm3:checked ~ .content-tm3 {
+    display: block;
+}
+
+#tab-tm4:checked ~ .content-tm4 {
+    display: block;
+}
+
+#tab-tm5:checked ~ .content-tm5 {
+    display: block;
+} */
+
+.tab-tm-label {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 10px; margin-right: 10px;
+    margin-top: 10px;
+}
+
+.our-team {
+    text-align: center;
+    margin-top: 40px;
+}
+
+
+.wrap {
+    max-width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.clearfix:before, .clearfix:after {
+    display: table;
+    content: "";
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.block .wrap > h2 {
+    text-align: center;
+}
+
+
+.block p:last-of-type {
+    margin-bottom: 0;
+}
+
+/* -------- #profile -------- */
+
+.team-profile {
+    background: #111;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    color: white;
+}
+
+.tools {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background: #eee;
+}
+
+/* -------- #ideal jobs -------- */
+
+.ideal-jobs {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background: white;
+}
+
+/* -------- #fonts -------- */
+
+@font-face {
+    font-family: "Roboto";
+    font-weight: 300;
+    src: url("fonts/roboto-light.woff2") format("woff2"), url("fonts/roboto-light.woff") format("woff");
+}
+
+@font-face {
+    font-family: "Roboto";
+    font-weight: 400;
+    src: url("fonts/roboto-medium.woff2") format("woff2"), url("fonts/roboto-medium.woff") format("woff");
+}
+
+
+
+/* -------- #media -------- */
+
+@media screen and (max-width: 1300px) {
+    .wrap {
+        max-width: 1060px;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .wrap {
+        max-width: 900px;
+    }
+}
+
+@media screen and (max-width: 901) {
+    .wrap {
+        max-width: 100%;
+        padding: 0 20px;
+    }
+}
